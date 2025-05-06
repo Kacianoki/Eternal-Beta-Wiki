@@ -14,7 +14,7 @@ on:
 jobs:
   deploy:
     name: deploy
-    runs-on: ubuntu-lastet
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
