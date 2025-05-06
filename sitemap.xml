@@ -1,199 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>None./</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/"/>
     </url>
     <url>
-        <loc>Noneelua/guides/exec-context/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/exec-context/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/exec-context/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/exec-context/"/>
     </url>
     <url>
-        <loc>Noneelua/guides/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/intro/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/intro/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/intro/"/>
     </url>
     <url>
-        <loc>Noneelua/guides/api-basics/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/intro/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/intro/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/intro/"/>
     </url>
     <url>
-        <loc>Noneelua/guides/api-basics/system-console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-console/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-console/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-console/"/>
     </url>
     <url>
-        <loc>Noneelua/guides/api-basics/system-io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-io/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-io/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-io/"/>
     </url>
     <url>
-        <loc>Noneelua/guides/api-basics/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/list/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/list/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/list/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/list/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/system_console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_console/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_console/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_console/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/system_io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_io/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_io/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_io/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/system_monitors/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_monitors/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_monitors/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_monitors/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/system_text_json/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_json/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_json/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_json/"/>
     </url>
     <url>
-        <loc>Noneelua/namespaces/system_text_regex/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_regex/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_regex/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_regex/"/>
     </url>
     <url>
-        <loc>Noneru/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/"/>
     </url>
     <url>
-        <loc>Noneru/elua/guides/exec-context/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/exec-context/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/exec-context/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/exec-context/"/>
     </url>
     <url>
-        <loc>Noneru/elua/guides/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/intro/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/intro/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/intro/"/>
     </url>
     <url>
-        <loc>Noneru/elua/guides/api-basics/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/intro/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/intro/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/intro/"/>
     </url>
     <url>
-        <loc>Noneru/elua/guides/api-basics/system-console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-console/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-console/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-console/"/>
     </url>
     <url>
-        <loc>Noneru/elua/guides/api-basics/system-io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-io/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-io/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-io/"/>
     </url>
     <url>
-        <loc>Noneru/elua/guides/api-basics/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/list/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/list/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/list/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/list/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/system_console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_console/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_console/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_console/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/system_io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_io/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_io/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_io/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/system_monitors/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_monitors/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_monitors/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_monitors/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/system_text_json/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_json/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_json/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_json/"/>
     </url>
     <url>
-        <loc>Noneru/elua/namespaces/system_text_regex/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_regex/</loc>
         <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_regex/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_regex/"/>
     </url>
 </urlset>
