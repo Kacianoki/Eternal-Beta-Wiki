@@ -1,0 +1,1 @@
+This is a very cool wiki about [Eternal Beta Game](https://github.com/Kacianoki/.github/blob/main/profile/README.md#eternal-beta)
