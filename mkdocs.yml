@@ -1,5 +1,6 @@
 site_name: Eternal Beta Wiki
 repo_url: https://github.com/Kacianoki/Eternal-Beta-Wiki
+site_url: https://kacianoki.github.io/Eternal-Beta-Wiki
 copyright: Copyright (c) 2025 Kacianoki
 
 exclude_docs: overrides/
