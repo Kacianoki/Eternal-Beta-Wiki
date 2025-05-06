@@ -27,8 +27,19 @@ theme:
         name: Switch to light mode
   logo: assets/logo.png
 
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+
+
 nav:
   - Home: index.md
+  - ELua: 
+    - Guides:
+      - Intro: elua/guides/intro.md
 
 plugins:
   - search
@@ -44,3 +55,5 @@ plugins:
           build: true
           nav_translations:
             Home: Домашняя страница
+            Guides: Гайды
+            Intro: Введение
