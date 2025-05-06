@@ -40,7 +40,7 @@ nav:
   - ELua: 
     - Guides:
       - Intro: elua/guides/intro.md
-      - Executeion context: elua/guides/exec-context.md
+      - Execution context: elua/guides/exec-context.md
       - API Basics:
         - Intro: elua/guides/api-basics/intro.md
         - system_console: elua/guides/api-basics/system-console.md
@@ -71,7 +71,7 @@ plugins:
             Home: Домашняя страница
             Guides: Гайды
             Intro: Введение
-            Executeion context: Контекст выполнения
+            Execution context: Контекст выполнения
             API Basics: Основы API
             Namespaces: Пространства имён
             List: Список
