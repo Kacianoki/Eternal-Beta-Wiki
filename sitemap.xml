@@ -2,16 +2,198 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-05-05</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/"/>
     </url>
     <url>
+        <loc>Noneelua/guides/exec-context/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/exec-context/"/>
+    </url>
+    <url>
+        <loc>Noneelua/guides/intro/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/intro/"/>
+    </url>
+    <url>
+        <loc>Noneelua/guides/api-basics/intro/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/intro/"/>
+    </url>
+    <url>
+        <loc>Noneelua/guides/api-basics/system-console/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-console/"/>
+    </url>
+    <url>
+        <loc>Noneelua/guides/api-basics/system-io/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-io/"/>
+    </url>
+    <url>
+        <loc>Noneelua/guides/api-basics/system/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/list/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/list/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/system/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/system_console/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_console/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/system_io/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_io/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/system_monitors/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_monitors/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/system_text_json/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_json/"/>
+    </url>
+    <url>
+        <loc>Noneelua/namespaces/system_text_regex/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_regex/"/>
+    </url>
+    <url>
         <loc>Noneru/</loc>
-        <lastmod>2025-05-05</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/guides/exec-context/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/exec-context/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/guides/intro/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/intro/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/guides/api-basics/intro/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/intro/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/guides/api-basics/system-console/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-console/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/guides/api-basics/system-io/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system-io/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/guides/api-basics/system/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/guides/api-basics/system/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/list/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/list/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/system/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/system_console/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_console/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/system_io/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_io/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/system_monitors/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_monitors/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/system_text_json/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_json/"/>
+    </url>
+    <url>
+        <loc>Noneru/elua/namespaces/system_text_regex/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/elua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneelua/namespaces/system_text_regex/"/>
     </url>
 </urlset>
