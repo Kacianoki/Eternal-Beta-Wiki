@@ -45,6 +45,7 @@ nav:
         - Intro: elua/guides/api-basics/intro.md
         - system_console: elua/guides/api-basics/system-console.md
         - system_io: elua/guides/api-basics/system-io.md
+        - system: elua/guides/api-basics/system.md
     - Namespaces:
       - List: elua/namespaces/list.md
       - system: elua/namespaces/system.md
