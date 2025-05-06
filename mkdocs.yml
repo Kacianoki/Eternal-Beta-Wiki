@@ -40,6 +40,19 @@ nav:
   - ELua: 
     - Guides:
       - Intro: elua/guides/intro.md
+      - Executeion context: elua/guides/exec-context.md
+      - API Basics:
+        - Intro: elua/guides/api-basics/intro.md
+        - system_console: elua/guides/api-basics/system-console.md
+        - system_io: elua/guides/api-basics/system-io.md
+    - Namespaces:
+      - List: elua/namespaces/list.md
+      - system: elua/namespaces/system.md
+      - system_console: elua/namespaces/system_console.md
+      - system_io: elua/namespaces/system_io.md
+      - system_monitors: elua/namespaces/system_monitors.md
+      - system_text_json: elua/namespaces/system_text_json.md
+      - system_text_regex: elua/namespaces/system_text_regex.md
 
 plugins:
   - search
@@ -57,3 +70,7 @@ plugins:
             Home: Домашняя страница
             Guides: Гайды
             Intro: Введение
+            Executeion context: Контекст выполнения
+            API Basics: Основы API
+            Namespaces: Пространства имён
+            List: Список
