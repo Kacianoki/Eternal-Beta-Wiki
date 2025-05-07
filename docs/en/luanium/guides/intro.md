@@ -1,8 +1,8 @@
-# Introduction to ELua
-In this guide you will learn about the major differences between Elua and regular Lua and acquire some basic knowledge, which will help you learn to use the main libraries.
+# Introduction to Luanium
+In this guide you will learn about the major differences between Luanium and regular Lua and acquire some basic knowledge, which will help you learn to use the main libraries.
 
 ## Major changes
-There are no libraries like `os`, `env` in Elua, and there is no `require` keyword. Other libraries and functions 
+There are no libraries like `os`, `env` in Luanium, and there is no `require` keyword. Other libraries and functions 
 are used as a substitute instead.
 
 ## Basic terms
@@ -116,7 +116,7 @@ result = sum(2, 2) -- the function sum() is available, since second.lua is place
 ```
 
 !!! seealso
-    Execution contexts also contain variables, which can be accessed through ELua scripts. See [Execution context](exec-context.md) for more details.
+    Execution contexts also contain variables, which can be accessed through Luanium scripts. See [Execution context](exec-context.md) for more details.
     
 
 ## `#!lua Include()` function under the hood
