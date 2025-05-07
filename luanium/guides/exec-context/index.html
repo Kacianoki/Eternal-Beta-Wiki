@@ -18,7 +18,7 @@
     
     
       
-        <title>Exec context - Eternal Beta Wiki</title>
+        <title>Execution context - Eternal Beta Wiki</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#execution-context" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Exec context
+              Execution context
             
           </span>
         </div>
@@ -785,6 +790,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-permission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Current permission
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -803,9 +842,27 @@
   
 
 
-  <h1>Exec context</h1>
-
-<p>WIP</p>
+<h1 id="execution-context">Execution context</h1>
+<p>In this guide you will learn more about so called execution context and about its variables.</p>
+<h2 id="variables">Variables</h2>
+<p>To retrieve a variable from execution context, you need to call the function from <code>system</code> namespace.</p>
+<div class="admonition seealso">
+<p class="admonition-title">Seealso</p>
+<p>More details about <code>system</code> namespace can be found in the <a href="../api-basics/intro/">API Basics</a> or in
+<a href="../../namespaces/system/">Namespaces</a> guide.</p>
+</div>
+<p>Here is the list of existing functions for retrieving execution context variables:</p>
+<ul>
+<li><code class="highlight"><span class="nf">Get_current_permission</span><span class="p">()</span></code></li>
+</ul>
+<h3 id="current-permission">Current permission</h3>
+<p>Each execution context has some "access level", that measures from <code>0</code> to <code>4,294,967,295</code> (2^32-1).
+This "access level", for example, determines the behavior of certain functions in <code>system_io</code>. It can be 
+retrieved by calling <code class="highlight"><span class="nf">Get_current_permission</span><span class="p">()</span></code></p>
+<div class="admonition seealso">
+<p class="admonition-title">Seealso</p>
+<p>More details about <code>system_io</code> namespace can be found in <a href="../api-basics/intro/">API Basics</a> или в <a href="../../namespaces/system_io/">Namespaces</a> guides.</p>
+</div>
 
 
 
