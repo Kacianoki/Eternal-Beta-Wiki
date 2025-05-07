@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/aml/guides/intro/">
+        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/intro/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Intro - Eternal Beta Wiki</title>
+        <title>Введение в Luanium - Eternal Beta Wiki</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#luanium" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro
+              Введение в Luanium
             
           </span>
         </div>
@@ -147,7 +152,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../aml/guides/intro/" hreflang="en" class="md-select__link">
+            <a href="../../../../luanium/guides/intro/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -785,6 +790,100 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Основные изменения
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Основные понятия
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Основные понятия">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#namespace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Пространство имён (namespace)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Индексация дисков
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include" class="md-nav__link">
+    <span class="md-ellipsis">
+      Функция Include()
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Функция Include()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Импортирование файлов
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Контекст выполнения
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Описание работы функции Include() за кулисами
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -803,9 +902,130 @@
   
 
 
-  <h1>Intro</h1>
+<h1 id="luanium">Введение в Luanium</h1>
+<p>В этом руководстве вы узнаете о основных отличиях Luanium от обычного Lua и базовые знания, с помощью которых вы сможете начать изучение основных библиотек.</p>
+<h2 id="_1">Основные изменения</h2>
+<p>В Luanium нету большинства библиотек по типу <code>os</code>, <code>env</code> и ключевого слова <code>require</code>, вместо них используются другие библиотеки и функции.</p>
+<h2 id="_2">Основные понятия</h2>
+<p>Впервую очередь вам нужно узнать о новом понятии, которое вы будете очень часто встречать в дальнейшем:</p>
+<h3 id="namespace">Пространство имён (namespace)</h3>
+<p>Пространство имён — это контейнер для логической группировки кода. В этот контейнер можно положить всякие переменные, функции, чтобы потом использовать их в других скриптах.</p>
+<p>Допустим, что мы пишем калькулятор:</p>
+<p><code>sum.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kr">function</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="nv">x</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">return</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">y</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div></p>
+<p><code>div.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kr">function</span><span class="w"> </span><span class="nf">divide</span><span class="p">(</span><span class="nv">a</span><span class="p">,</span><span class="w"> </span><span class="nv">b</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="nb">error</span><span class="p">(</span><span class="s2">&quot;division by zero&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+<span class="w">    </span><span class="kr">return</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nv">b</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div></p>
+<p><code>calc.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kr">function</span><span class="w"> </span><span class="nf">calc</span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">,</span><span class="w"> </span><span class="nv">operator</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">operator</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;/&quot;</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nf">divide</span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">else</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">operator</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;+&quot;</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div></p>
+<p><code>calc.lua</code> Не сможет вызвать <code class="highlight"><span class="nf">divide</span><span class="p">()</span></code> и <code class="highlight"><span class="nf">sum</span><span class="p">()</span></code>, т.к. в файле <code>calc.lua</code> они просто не объявлены. Вместо того, чтобы копировать содержимое <code>div.lua</code> и <code>sum.lua</code> мы можем использовать пространства имён:</p>
+<p><code class="highlight"><span class="nf">Namespace</span><span class="p">()</span></code> - Эта функция добавляет текущий файл скрипта в указанное пространство имён. </p>
+<p><code>sum.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Namespace</span><span class="p">(</span><span class="s2">&quot;calculator&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">-- Добавляем этот файл в пространство имён &quot;calculator&quot;</span>
+<span class="kr">function</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="nv">x</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">return</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">y</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div></p>
+<p><code>div.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Namespace</span><span class="p">(</span><span class="s2">&quot;calculator&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">-- То же пространство имён</span>
+<span class="kr">function</span><span class="w"> </span><span class="nf">divide</span><span class="p">(</span><span class="nv">a</span><span class="p">,</span><span class="w"> </span><span class="nv">b</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="nb">error</span><span class="p">(</span><span class="s2">&quot;Ошибка: деление на ноль!&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+<span class="w">    </span><span class="kr">return</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nv">b</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div></p>
+<p>Теперь наши скрипты реализующие работу с расчётами добавлены в пространство имён. Чтобы использовать это пространство имён нужно обновить <code>calc.lua</code> добавив вызов функции <code class="highlight"><span class="nf">Include</span><span class="p">()</span></code>:</p>
+<p><code>calc.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;calculator&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">-- импортируем все файлы из пространства имён &quot;calculator&quot;</span>
 
-<p>WIP</p>
+<span class="kr">function</span><span class="w"> </span><span class="nf">calc</span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">,</span><span class="w"> </span><span class="nv">operator</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">operator</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;/&quot;</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nf">divide</span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">else</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">operator</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;+&quot;</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div></p>
+<h2 id="_3">Индексация дисков</h2>
+<p>У каждого диска в игре есть свой индекс/номер.
+У диска, с которого игра запускает инициальный скрипт (такие диски называются загрузочными) индекс всегда будет равен <code>0</code>.</p>
+<h2 id="include">Функция <code class="highlight"><span class="nf">Include</span><span class="p">()</span></code></h2>
+<h3 id="_4">Импортирование файлов</h3>
+<p>Функция <code class="highlight"><span class="nf">Include</span><span class="p">()</span></code> может импортировать напрямую луа файлы:
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;0:/some-lua-file.lua&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+Здесь перед двоеточием указывается индекс диска, с которого мы читаем файл, а после двоеточия указывается полный путь к lua файлу.</p>
+<h2 id="_5">Контекст выполнения</h2>
+<p>Все скрипты, написаные на lua выполняются в "контекстах выполнения" (я не смог придумать название получше). Сейчас я объясню, что это для вас значит:</p>
+<p>Каждый вызов функции <code class="highlight"><span class="nf">Include</span><span class="p">()</span></code> импортирует что либо не в файл, а в "контекст выполнения", т.е. если вы импортировали что-то в одном файле, то это автоматически импортируется в остальных файлах этого контекста:</p>
+<p><code>first.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;calculator&quot;</span><span class="p">)</span>
+<span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;0:/second.lua&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></p>
+<p><code>second.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nv">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="c1">-- функуия sum доступна, т.к. Include из first.lua выполняет second.lua в том же контексте.</span>
+</code></pre></div></td></tr></table></div></p>
+<div class="admonition seealso">
+<p class="admonition-title">Seealso</p>
+<p>Контексты выполнения так же содержат различные переменные, которые можно получать в скриптах Luanium. Подробнее об этом можно узнать в <a href="../exec-context/">Контекст выполнения</a></p>
+</div>
+<h2 id="include_1">Описание работы функции <code class="highlight"><span class="nf">Include</span><span class="p">()</span></code> за кулисами</h2>
+<p>Когда вы импортируете что либо, импортируемые файлы на самом деле исполняются:</p>
+<p><code>first.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nv">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span>
+</code></pre></div></td></tr></table></div></p>
+<p><code>second.lua</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;0:/first.lua&quot;</span><span class="p">)</span>
+<span class="nv">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">result</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="c1">-- Будет 6, т.к. Include выполнил код в first.lua</span>
+</code></pre></div></td></tr></table></div></p>
 
 
 

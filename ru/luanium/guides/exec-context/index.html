@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/aml/guides/intro/">
+        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/exec-context/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Intro - Eternal Beta Wiki</title>
+        <title>Контекст выполнения - Eternal Beta Wiki</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro
+              Контекст выполнения
             
           </span>
         </div>
@@ -147,7 +152,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../aml/guides/intro/" hreflang="en" class="md-select__link">
+            <a href="../../../../luanium/guides/exec-context/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -785,6 +790,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Переменные
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Переменные">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-permission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Current permission
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -803,9 +842,24 @@
   
 
 
-  <h1>Intro</h1>
-
-<p>WIP</p>
+<h1 id="_1">Контекст выполнения</h1>
+<p>В этом разделе вы узнаете больше насчёт "Контекста выполнения" и о его переменных.</p>
+<h2 id="_2">Переменные</h2>
+<p>Чтобы получить переменную из контекста выполнения, нам нужно вызвать соответствующею функцию из пространства имён <code>system</code></p>
+<div class="admonition seealso">
+<p class="admonition-title">Seealso</p>
+<p>Подробнее о пространстве имён <code>system</code> вы можете узнать в разделе <a href="../api-basics/intro/">Основы API</a> или в <a href="../../namespaces/system/">Пространства имён</a></p>
+</div>
+<p>На данный момент есть вот такой перечень функций для получения переменных контекста выполнения:</p>
+<ul>
+<li><code class="highlight"><span class="nf">Get_current_permission</span><span class="p">()</span></code></li>
+</ul>
+<h3 id="current-permission">Current permission</h3>
+<p>У каждого контекста выполнения есть свой некий "уровень допуска", измеряющийся от <code>0</code>, до <code>4,294,967,295</code> (2^32-1). Этот "уровень допуска", например, определяет поведение некоторых функция в <code>system_io</code>. Получается вызовом <code class="highlight"><span class="nf">Get_current_permission</span><span class="p">()</span></code></p>
+<div class="admonition seealso">
+<p class="admonition-title">Seealso</p>
+<p>Подробнее о пространстве имён <code>system_io</code> вы можете узнать в разделе <a href="../api-basics/intro/">Основы API</a> или в <a href="../../namespaces/system_io/">Пространства имён</a></p>
+</div>
 
 
 

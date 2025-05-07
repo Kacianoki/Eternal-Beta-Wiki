@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/aml/guides/intro/">
+        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Intro - Eternal Beta Wiki</title>
+        <title>Таблицы - Eternal Beta Wiki</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro
+              Таблицы
             
           </span>
         </div>
@@ -147,7 +152,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../aml/guides/intro/" hreflang="en" class="md-select__link">
+            <a href="../../../../luanium/namespaces/system/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -785,6 +790,100 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lua_engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      lua_engine
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="lua_engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Функции
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      power_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime" class="md-nav__link">
+    <span class="md-ellipsis">
+      datetime
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="datetime">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datetime-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ключи datetime table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timespan-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ключи timespan table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Голобальные функции
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -803,9 +902,92 @@
   
 
 
-  <h1>Intro</h1>
-
-<p>WIP</p>
+<h1 id="_1">Таблицы</h1>
+<h2 id="lua_engine">lua_engine</h2>
+<p>Предоставляет работу с движком lua</p>
+<h3 id="_2">Функции</h3>
+<ul>
+<li><code class="highlight"><span class="nf">run</span><span class="p">(</span><span class="nv">disk_id</span><span class="p">,</span><span class="w"> </span><span class="nv">path</span><span class="p">,</span><span class="w"> </span><span class="nv">permission</span><span class="p">)</span></code>
+    Создаст новый контекст исполнения и запустит в нём указанный скрипт
+    <code>permission</code> - должно быть равно или меньше, чем значения текущего контекста исполнения.</li>
+</ul>
+<h2 id="power_manager">power_manager</h2>
+<p>Предоставляет работу с питанием ПК <strong><code>permission</code> должен быть равен системному (2^32-1)</strong>
+- <code class="highlight"><span class="nf">shutdown</span><span class="p">()</span></code>
+    Выключит ПК
+- <code class="highlight"><span class="nf">reboot</span><span class="p">()</span></code>
+    Перезапустит ПК</p>
+<h2 id="datetime">datetime</h2>
+<p>Эта таблица предоставляет работу с датами и временем</p>
+<h3 id="methods">Methods</h3>
+<ul>
+<li><code class="highlight"><span class="nf">is_timespan</span><span class="p">(</span><span class="nv">table</span><span class="p">)</span></code>
+    Вернёт <code class="highlight"><span class="kc">true</span></code>, если таблица - <code>timespan table</code></li>
+<li><code class="highlight"><span class="nf">get_current_time</span><span class="p">()</span></code>
+    Вернёт <code>datetime table</code> содержащий текущее время</li>
+<li><code class="highlight"><span class="nf">from_unix_secs</span><span class="p">(</span><span class="nv">unix_seconds</span><span class="p">)</span></code>
+    Вернёт <code>datetime table</code></li>
+<li><code class="highlight"><span class="nf">from_unix_ms</span><span class="p">(</span><span class="nv">unix_milliseconds</span><span class="p">)</span></code>
+    Вернёт <code>datetime table</code></li>
+<li><code class="highlight"><span class="nf">to_unix_ms</span><span class="p">(</span><span class="nv">datetime_table</span><span class="p">)</span></code>
+    Вернёт время в формате UNIX</li>
+<li><code class="highlight"><span class="nf">to_unix_secs</span><span class="p">(</span><span class="nv">datetime_table</span><span class="p">)</span></code>
+    Вернёт время в формате UNIX</li>
+<li>
+<p><code class="highlight"><span class="nf">sub</span><span class="p">(</span><span class="nv">timespan</span><span class="o">/</span><span class="nv">datetime</span><span class="p">,</span><span class="w"> </span><span class="nv">timespan</span><span class="o">/</span><span class="nv">datetime</span><span class="p">)</span></code>
+    (subtract, отнять)
+    Эта функция может вернуть как <code>timespan table</code>, так и <code>datetime table</code>.</p>
+<p>Список валидных аргументов и что они вернут:
+- <strong>timespan</strong> and <strong>timespan</strong> =&gt; <strong>timespan</strong>
+- <strong>datetime</strong> and <strong>timespan</strong> =&gt; <strong>datetime</strong>
+- <strong>datetime</strong> and <strong>datetime</strong> =&gt; <strong>timespan</strong>
+- <code class="highlight"><span class="nf">sum</span><span class="p">(</span><span class="nv">timespan</span><span class="o">/</span><span class="nv">datetime</span><span class="p">,</span><span class="w"> </span><span class="nv">timespan</span><span class="o">/</span><span class="nv">datetime</span><span class="p">)</span></code>
+(sum, add, сумма)
+Эта функция может вернуть как <code>timespan table</code>, так и <code>datetime table</code>.</p>
+<p>Список валидных аргументов и что они вернут:
+- <strong>timespan</strong> and <strong>timespan</strong> =&gt; <strong>timespan</strong>
+- <strong>datetime</strong> and <strong>timespan</strong> =&gt; <strong>datetime</strong>
+- <code class="highlight"><span class="nf">div</span><span class="p">(</span><span class="nv">timespan</span><span class="o">/</span><span class="nv">datetime</span><span class="p">,</span><span class="w"> </span><span class="nv">timespan</span><span class="o">/</span><span class="nv">datetime</span><span class="p">)</span></code>
+(divide, деление)
+Эта функция может вернуть как <code>timespan table</code>, так и <code>datetime table</code>.</p>
+<p>Список валидных аргументов и что они вернут:
+- <strong>timespan</strong> and <strong>timespan</strong> =&gt; <strong>timespan</strong></p>
+</li>
+</ul>
+<h3 id="datetime-table">Ключи <code>datetime table</code></h3>
+<ul>
+<li><code>microseconds</code> - int</li>
+<li><code>milliseconds</code> - int</li>
+<li><code>second</code> - int</li>
+<li><code>minute</code> - int</li>
+<li><code>hour</code> - int</li>
+<li><code>day</code> - int</li>
+<li><code>day_of_week</code> - int</li>
+<li><code>day_of_year</code> - int</li>
+<li><code>month</code> - int</li>
+<li><code>year</code> - int</li>
+</ul>
+<h3 id="timespan-table">Ключи <code>timespan table</code></h3>
+<ul>
+<li><code>microseconds</code> - int</li>
+<li><code>milliseconds</code> - int</li>
+<li><code>seconds</code> - int</li>
+<li><code>minutes</code> - int</li>
+<li><code>hours</code> - int</li>
+<li><code>days</code> - int</li>
+<li><code>total_seconds</code> - float</li>
+<li><code>total_minutes</code> - float</li>
+<li><code>total_hours</code> - float</li>
+<li><code>total_days</code> - float</li>
+<li><code>total_microseconds</code> - float</li>
+<li><code>total_milliseconds</code> - float</li>
+</ul>
+<h2 id="_3">Голобальные функции</h2>
+<ul>
+<li><code class="highlight"><span class="nf">Wait</span><span class="p">(</span><span class="nv">ms</span><span class="p">)</span></code></li>
+<li><code class="highlight"><span class="nf">Get_current_permission</span><span class="p">()</span></code> 
+    Вернёт <code>permission</code> текущего контекста выполнения</li>
+</ul>
 
 
 

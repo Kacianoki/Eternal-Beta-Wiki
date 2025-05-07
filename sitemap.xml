@@ -22,95 +22,95 @@
         <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/aml/guides/intro/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/exec-context/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/exec-context/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/exec-context/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/exec-context/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/intro/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/intro/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/intro/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/intro/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/intro/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/intro/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system-console/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-console/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system-console/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system-io/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-io/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system-io/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/list/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/list/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/list/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/list/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_console/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_console/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_console/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_io/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_io/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_io/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_monitors/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_monitors/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_monitors/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_monitors/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_json/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_text_json/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_json/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_json/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_regex/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_text_regex/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_regex/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_regex/"/>
     </url>
     <url>
         <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/iriskus/</loc>
@@ -134,94 +134,94 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/aml/guides/intro/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/exec-context/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/exec-context/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/exec-context/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/exec-context/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/exec-context/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/intro/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/intro/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/intro/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/intro/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/intro/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/intro/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/intro/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system-console/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-console/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system-console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system-console/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system-io/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system-io/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system-io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system-io/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/guides/api-basics/system/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/guides/api-basics/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/api-basics/system/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/list/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/list/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/list/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/list/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_console/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_console/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_console/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_console/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_console/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_io/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_io/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_io/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_io/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_monitors/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_monitors/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_monitors/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_monitors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_monitors/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_json/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_json/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_json/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_json/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_text_json/"/>
     </url>
     <url>
-        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_regex/</loc>
+        <loc>https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_regex/</loc>
         <lastmod>2025-05-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/elua/namespaces/system_text_regex/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/elua/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_regex/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/namespaces/system_text_regex/"/>
     </url>
 </urlset>

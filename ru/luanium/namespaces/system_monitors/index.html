@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/aml/guides/intro/">
+        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_monitors/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Intro - Eternal Beta Wiki</title>
+        <title>Таблицы - Eternal Beta Wiki</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro
+              Таблицы
             
           </span>
         </div>
@@ -147,7 +152,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../aml/guides/intro/" hreflang="en" class="md-select__link">
+            <a href="../../../../luanium/namespaces/system_monitors/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -785,6 +790,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      cpu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="cpu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-info-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ключи Cpu info table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -803,9 +851,24 @@
   
 
 
-  <h1>Intro</h1>
-
-<p>WIP</p>
+<h1 id="_1">Таблицы</h1>
+<h2 id="cpu">cpu</h2>
+<p>Эта таблица предоставляет доступ к <code>cpu monitor</code></p>
+<h3 id="methods">Methods</h3>
+<ul>
+<li><code class="highlight"><span class="nf">get_usage</span><span class="p">(</span><span class="nv">core_id</span><span class="p">)</span></code>
+    Вернёт процент использования ядра процессора</li>
+<li><code class="highlight"><span class="nf">get_average_usage</span><span class="p">()</span></code>
+    Вернёт процент использования процессора</li>
+<li><code class="highlight"><span class="nf">get_info</span><span class="p">()</span></code>
+    Вернёт <code>cpu info table</code></li>
+</ul>
+<h3 id="cpu-info-table">Ключи <code>Cpu info table</code></h3>
+<ul>
+<li><code>name</code> - Имя</li>
+<li><code>health</code> - Здоровье, состояние</li>
+<li><code>total_cores</code> - Количество ядер</li>
+</ul>
 
 
 

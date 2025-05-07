@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/aml/guides/intro/">
+        <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/ru/luanium/namespaces/system_text_regex/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Intro - Eternal Beta Wiki</title>
+        <title>Таблицы - Eternal Beta Wiki</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro
+              Таблицы
             
           </span>
         </div>
@@ -147,7 +152,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../aml/guides/intro/" hreflang="en" class="md-select__link">
+            <a href="../../../../luanium/namespaces/system_text_regex/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -785,6 +790,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#regex" class="md-nav__link">
+    <span class="md-ellipsis">
+      regex
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="regex">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Функции
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -803,9 +842,70 @@
   
 
 
-  <h1>Intro</h1>
+<h1 id="_1">Таблицы</h1>
+<h2 id="regex">regex</h2>
+<p>Этот класс предоставляет <strong>.NET реализацию</strong> регулярных выражений</p>
+<h3 id="_2">Функции</h3>
+<ul>
+<li><code class="highlight"><span class="nf">is_match</span><span class="p">(</span><span class="nv">input</span><span class="p">,</span><span class="w"> </span><span class="nv">pattern</span><span class="p">)</span></code>
+    Вернёт <code>boolean</code> значение</li>
+<li><code class="highlight"><span class="nf">matches</span><span class="p">(</span><span class="nv">input</span><span class="p">,</span><span class="w"> </span><span class="nv">pattern</span><span class="p">)</span></code>
+    Вернёт таблицу, где ключ - это индекс, а значение - <code>string</code>(<strong>match value</strong>)</li>
+<li><code class="highlight"><span class="nf">matches_groups</span><span class="p">(</span><span class="nv">input</span><span class="p">,</span><span class="w"> </span><span class="nv">pattern</span><span class="p">,</span><span class="w"> </span><span class="nv">target_groups</span><span class="p">)</span></code>
+    Вернёт таблицу, где ключ - это индекс, а значение - <code>string</code>(<strong>group value</strong>)
+    <code>target_groups</code> - это таблица имён групп, чьи значение функция должна вернуть</li>
+<li><code class="highlight"><span class="nf">replace</span><span class="p">(</span><span class="nv">input</span><span class="p">,</span><span class="w"> </span><span class="nv">replace_to</span><span class="p">,</span><span class="w"> </span><span class="nv">pattern</span><span class="p">)</span></code>
+    Returns string</li>
+</ul>
+<h1 id="_3">Примеры:</h1>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_console&quot;</span><span class="p">)</span>
+<span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_text_regex&quot;</span><span class="p">)</span>
 
-<p>WIP</p>
+<span class="kd">local</span><span class="w"> </span><span class="nv">pattern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">[[\S+]]</span>
+
+<span class="kr">while</span><span class="w"> </span><span class="nv">True</span><span class="w"> </span><span class="kr">do</span>
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Write something: &quot;</span><span class="p">)</span>
+<span class="nv">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">.</span><span class="nf">readln</span><span class="p">()</span>
+<span class="nv">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">regex</span><span class="p">.</span><span class="nf">is_match</span><span class="p">(</span><span class="nv">input</span><span class="p">,</span><span class="w"> </span><span class="nv">pattern</span><span class="p">)</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Is in input only chars: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_console&quot;</span><span class="p">)</span>
+<span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_text_regex&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">pattern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">[[(?:&quot;((?:\\.|[^&quot;\\])*)&quot;|([^\s]+))]]</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">groups</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">}</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Write some command: &quot;</span><span class="p">)</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">.</span><span class="nf">readln</span><span class="p">()</span>
+
+<span class="kr">for</span><span class="w"> </span><span class="nv">index</span><span class="p">,</span><span class="w"> </span><span class="nv">token</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">regex</span><span class="p">.</span><span class="nf">matches_groups</span><span class="p">(</span><span class="nv">input</span><span class="p">,</span><span class="w"> </span><span class="nv">pattern</span><span class="p">,</span><span class="w"> </span><span class="nv">groups</span><span class="p">))</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="nv">token</span><span class="p">)</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div>
 
 
 
