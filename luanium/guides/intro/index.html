@@ -11,6 +11,10 @@
         <link rel="canonical" href="https://kacianoki.github.io/Eternal-Beta-Wiki/luanium/guides/intro/">
       
       
+        <link rel="prev" href="../../..">
+      
+      
+        <link rel="next" href="../exec-context/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Introduction to Luanium - Eternal Beta Wiki</title>
+        <title>Intro - Eternal Beta Wiki</title>
       
     
     
@@ -105,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction to Luanium
+              Intro
             
           </span>
         </div>
@@ -295,18 +299,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -314,7 +320,7 @@
   
   
   <span class="md-ellipsis">
-    ELua
+    Luanium
     
   </span>
   
@@ -322,10 +328,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            ELua
+            Luanium
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -333,18 +339,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -360,7 +368,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             Guides
@@ -371,10 +379,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../elua/guides/intro.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -385,6 +415,110 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#major-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Major changes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic terms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic terms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#namespace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namespace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disk-indexing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disk indexing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Include() function
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Include() function">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file-importing" class="md-nav__link">
+    <span class="md-ellipsis">
+      File importing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#execution-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Execution context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-function-under-the-hood" class="md-nav__link">
+    <span class="md-ellipsis">
+      Include() function under the hood
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -397,7 +531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/guides/exec-context.md" class="md-nav__link">
+      <a href="../exec-context/" class="md-nav__link">
         
   
   
@@ -458,7 +592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/guides/api-basics/intro.md" class="md-nav__link">
+      <a href="../api-basics/intro/" class="md-nav__link">
         
   
   
@@ -481,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/guides/api-basics/system-console.md" class="md-nav__link">
+      <a href="../api-basics/system-console/" class="md-nav__link">
         
   
   
@@ -504,7 +638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/guides/api-basics/system-io.md" class="md-nav__link">
+      <a href="../api-basics/system-io/" class="md-nav__link">
         
   
   
@@ -527,7 +661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/guides/api-basics/system.md" class="md-nav__link">
+      <a href="../api-basics/system/" class="md-nav__link">
         
   
   
@@ -604,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/list.md" class="md-nav__link">
+      <a href="../../namespaces/list/" class="md-nav__link">
         
   
   
@@ -627,7 +761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/system.md" class="md-nav__link">
+      <a href="../../namespaces/system/" class="md-nav__link">
         
   
   
@@ -650,7 +784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/system_console.md" class="md-nav__link">
+      <a href="../../namespaces/system_console/" class="md-nav__link">
         
   
   
@@ -673,7 +807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/system_io.md" class="md-nav__link">
+      <a href="../../namespaces/system_io/" class="md-nav__link">
         
   
   
@@ -696,7 +830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/system_monitors.md" class="md-nav__link">
+      <a href="../../namespaces/system_monitors/" class="md-nav__link">
         
   
   
@@ -719,7 +853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/system_text_json.md" class="md-nav__link">
+      <a href="../../namespaces/system_text_json/" class="md-nav__link">
         
   
   
@@ -742,7 +876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../elua/namespaces/system_text_regex.md" class="md-nav__link">
+      <a href="../../namespaces/system_text_regex/" class="md-nav__link">
         
   
   
