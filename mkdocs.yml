@@ -38,23 +38,23 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - ELua: 
+  - Luanium: 
     - Guides:
-      - Intro: elua/guides/intro.md
-      - Execution context: elua/guides/exec-context.md
+      - Intro: luanium/guides/intro.md
+      - Execution context: luanium/guides/exec-context.md
       - API Basics:
-        - Intro: elua/guides/api-basics/intro.md
-        - system_console: elua/guides/api-basics/system-console.md
-        - system_io: elua/guides/api-basics/system-io.md
-        - system: elua/guides/api-basics/system.md
+        - Intro: luanium/guides/api-basics/intro.md
+        - system_console: luanium/guides/api-basics/system-console.md
+        - system_io: luanium/guides/api-basics/system-io.md
+        - system: luanium/guides/api-basics/system.md
     - Namespaces:
-      - List: elua/namespaces/list.md
-      - system: elua/namespaces/system.md
-      - system_console: elua/namespaces/system_console.md
-      - system_io: elua/namespaces/system_io.md
-      - system_monitors: elua/namespaces/system_monitors.md
-      - system_text_json: elua/namespaces/system_text_json.md
-      - system_text_regex: elua/namespaces/system_text_regex.md
+      - List: luanium/namespaces/list.md
+      - system: luanium/namespaces/system.md
+      - system_console: luanium/namespaces/system_console.md
+      - system_io: luanium/namespaces/system_io.md
+      - system_monitors: luanium/namespaces/system_monitors.md
+      - system_text_json: luanium/namespaces/system_text_json.md
+      - system_text_regex: luanium/namespaces/system_text_regex.md
 
 plugins:
   - search
