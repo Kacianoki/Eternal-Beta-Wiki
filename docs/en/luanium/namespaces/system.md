@@ -1,7 +1,7 @@
-# Таблицы
+# Tables
 ## lua_engine
 Enables work with the lua engine
-### Функции
+### Functions
 - `#!lua run(disk_id, path, permission)`
     Creates a new execution context and runs the specified script in it
     `permission` - must be equal to or less than the values of the current one.
@@ -43,7 +43,7 @@ This table provides date and time functionality
     - **timespan** and **timespan** => **timespan**
     - **datetime** and **timespan** => **datetime**
 - `#!lua div(timespan/datetime, timespan/datetime)`
-    (divide, деление)
+    (divide)
     Returns `timespan table` or `datetime table`.
     
     A list of valid arguments and what they will return:

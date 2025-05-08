@@ -11,7 +11,7 @@
     Вернёт таблицу, где ключ - это индекс, а значение - `string`(**group value**)
     `target_groups` - это таблица имён групп, чьи значение функция должна вернуть
 - `#!lua replace(input, replace_to, pattern)`
-    Returns string
+    Вернёт string
 
 # Примеры:
 ```lua
