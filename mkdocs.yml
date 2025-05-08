@@ -1,5 +1,6 @@
 site_name: Eternal Beta Wiki
 repo_url: https://github.com/Kacianoki/Eternal-Beta-Wiki
+site_url: https://kacianoki.github.io/Eternal-Beta-Wiki
 copyright: Copyright (c) 2025 Kacianoki
 
 exclude_docs: overrides/
@@ -27,8 +28,33 @@ theme:
         name: Switch to light mode
   logo: assets/logo.png
 
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+
+
 nav:
   - Home: index.md
+  - Luanium: 
+    - Guides:
+      - Intro: luanium/guides/intro.md
+      - Execution context: luanium/guides/exec-context.md
+      - API Basics:
+        - Intro: luanium/guides/api-basics/intro.md
+        - system_console: luanium/guides/api-basics/system-console.md
+        - system_io: luanium/guides/api-basics/system-io.md
+        - system: luanium/guides/api-basics/system.md
+    - Namespaces:
+      - List: luanium/namespaces/list.md
+      - system: luanium/namespaces/system.md
+      - system_console: luanium/namespaces/system_console.md
+      - system_io: luanium/namespaces/system_io.md
+      - system_monitors: luanium/namespaces/system_monitors.md
+      - system_text_json: luanium/namespaces/system_text_json.md
+      - system_text_regex: luanium/namespaces/system_text_regex.md
 
 plugins:
   - search
@@ -44,3 +70,9 @@ plugins:
           build: true
           nav_translations:
             Home: Домашняя страница
+            Guides: Гайды
+            Intro: Введение
+            Execution context: Контекст выполнения
+            API Basics: Основы API
+            Namespaces: Пространства имён
+            List: Список

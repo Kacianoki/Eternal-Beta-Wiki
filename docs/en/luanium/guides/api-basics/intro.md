@@ -1,0 +1,2 @@
+# Introduction
+This section will not cover all the namespaces completely, only the main ones used most often will be shown. **If you need more detailed information about any of the namespaces, you can go to [Namespaces](../../namespaces/list.md)**.
