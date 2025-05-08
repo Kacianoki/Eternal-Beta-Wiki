@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#tables" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -705,6 +710,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    system_monitors
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -717,6 +737,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      cpu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="cpu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-info-table-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cpu info table keys
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -801,6 +873,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      cpu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="cpu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-info-table-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cpu info table keys
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -819,9 +934,24 @@
   
 
 
-  <h1>system_monitors</h1>
-
-<p>WIP</p>
+<h1 id="tables">Tables</h1>
+<h2 id="cpu">cpu</h2>
+<p>This table gives access to the <code>cpu monitor</code></p>
+<h3 id="methods">Methods</h3>
+<ul>
+<li><code class="highlight"><span class="nf">get_usage</span><span class="p">(</span><span class="nv">core_id</span><span class="p">)</span></code>
+    Returns the percentage of CPU core usage</li>
+<li><code class="highlight"><span class="nf">get_average_usage</span><span class="p">()</span></code>
+    Returns the percentage of CPU usage</li>
+<li><code class="highlight"><span class="nf">get_info</span><span class="p">()</span></code>
+    Returns <code>cpu info table</code></li>
+</ul>
+<h3 id="cpu-info-table-keys"><code>Cpu info table</code> keys</h3>
+<ul>
+<li><code>name</code> - Name</li>
+<li><code>health</code> - Health, condition</li>
+<li><code>total_cores</code> - Number of cores</li>
+</ul>
 
 
 

@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#system_console" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -492,6 +497,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -803,6 +810,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -821,9 +830,83 @@
   
 
 
-  <h1>system_console</h1>
+<h1 id="system_console"><code>system_console</code></h1>
+<p><code>system_console</code> offers console functionality:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_console&quot;</span><span class="p">)</span>
 
-<p>WIP</p>
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Write your name: &quot;</span><span class="p">)</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">:</span><span class="nf">readln</span><span class="p">()</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Your name is &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot;!&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<p>For example, this is how a simple calculator would look like:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_console&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">case</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="p">[</span><span class="s2">&quot;+&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nv">fnum</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">snum</span>
+<span class="w">    </span><span class="kr">end</span><span class="p">,</span>
+<span class="w">    </span><span class="p">[</span><span class="s2">&quot;-&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nv">fnum</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">snum</span>
+<span class="w">    </span><span class="kr">end</span><span class="p">,</span>
+<span class="w">    </span><span class="p">[</span><span class="s2">&quot;/&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nv">fnum</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nv">snum</span>
+<span class="w">    </span><span class="kr">end</span><span class="p">,</span>
+<span class="w">    </span><span class="p">[</span><span class="s2">&quot;*&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="p">(</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">)</span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nv">fnum</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">snum</span>
+<span class="w">    </span><span class="kr">end</span>
+<span class="p">}</span>
+
+<span class="kr">while</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">:</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;First num: &quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">fnum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">tonumber</span><span class="p">(</span><span class="nv">console</span><span class="p">:</span><span class="nf">readln</span><span class="p">())</span>
+
+<span class="w">    </span><span class="nv">console</span><span class="p">:</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Operator: &quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">operator</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">:</span><span class="nf">readln</span><span class="p">()</span>
+
+<span class="w">    </span><span class="nv">console</span><span class="p">:</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Second num: &quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">snum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">tonumber</span><span class="p">(</span><span class="nv">console</span><span class="p">:</span><span class="nf">readln</span><span class="p">())</span>
+
+<span class="w">    </span><span class="nv">console</span><span class="p">:</span><span class="nf">println</span><span class="p">(</span><span class="nv">case</span><span class="p">[</span><span class="nv">operator</span><span class="p">](</span><span class="nv">fnum</span><span class="p">,</span><span class="w"> </span><span class="nv">snum</span><span class="p">))</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div>
 
 
 

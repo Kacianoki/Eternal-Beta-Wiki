@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#tables" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -728,6 +733,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    system_text_json
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -740,6 +760,49 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      json
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -801,6 +864,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      json
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -819,9 +916,59 @@
   
 
 
-  <h1>system_text_json</h1>
+<h1 id="tables">Tables</h1>
+<h2 id="json">json</h2>
+<p>This class enables working with JSON</p>
+<h3 id="methods">Methods</h3>
+<ul>
+<li><code class="highlight"><span class="nf">encode</span><span class="p">(</span><span class="nv">table</span><span class="p">)</span></code></li>
+<li><code class="highlight"><span class="nf">decode</span><span class="p">(</span><span class="nv">json_string</span><span class="p">)</span></code>
+    Returns a table</li>
+</ul>
+<h1 id="examples">Examples:</h1>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_console&quot;</span><span class="p">)</span>
+<span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_text_json&quot;</span><span class="p">)</span>
 
-<p>WIP</p>
+<span class="kd">local</span><span class="w"> </span><span class="nv">table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Write your first name: &quot;</span><span class="p">)</span>
+<span class="nv">table</span><span class="p">[</span><span class="s2">&quot;first_name&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">.</span><span class="nf">readln</span><span class="p">()</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Write your last name:&quot;</span><span class="p">)</span>
+<span class="nv">table</span><span class="p">[</span><span class="s2">&quot;last_name&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">.</span><span class="nf">readln</span><span class="p">()</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="nv">json</span><span class="p">.</span><span class="nf">encode</span><span class="p">(</span><span class="nv">table</span><span class="p">))</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_console&quot;</span><span class="p">)</span>
+<span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_text_json&quot;</span><span class="p">)</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Enter JSON data:&quot;</span><span class="p">)</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">json</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">.</span><span class="nf">readln</span><span class="p">()</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">json</span><span class="p">.</span><span class="nf">decode</span><span class="p">(</span><span class="nv">json</span><span class="p">)</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;First name is &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">table</span><span class="p">[</span><span class="s2">&quot;first_name&quot;</span><span class="p">])</span>
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Last name is &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">table</span><span class="p">[</span><span class="s2">&quot;last_name&quot;</span><span class="p">])</span>
+</code></pre></div></td></tr></table></div>
+<p>The source code for this library can be found at https://github.com/rxi/json.lua</p>
 
 
 

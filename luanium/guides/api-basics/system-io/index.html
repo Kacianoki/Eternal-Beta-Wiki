@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#system_io" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -515,6 +520,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    system_io
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -527,6 +547,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#disks" class="md-nav__link">
+    <span class="md-ellipsis">
+      disks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      directory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      file
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -803,6 +869,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#disks" class="md-nav__link">
+    <span class="md-ellipsis">
+      disks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      directory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      file
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -821,9 +924,96 @@
   
 
 
-  <h1>system_io</h1>
+<h1 id="system_io"><code>system_io</code></h1>
+<p><code>system_io</code> offers functionality of files, directories, paths and drives.</p>
+<h2 id="disks"><code>disks</code></h2>
+<p>This table gives us information about disks:</p>
+<p><code class="highlight"><span class="nv">disks</span><span class="p">.</span><span class="nf">list</span><span class="p">()</span></code> - returns index table of all connected drives
+<code class="highlight"><span class="nv">disks</span><span class="p">.</span><span class="nf">get_info</span><span class="p">(</span><span class="nv">index</span><span class="p">)</span></code> - returns drive info in a table</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_io&quot;</span><span class="p">)</span>
 
-<p>WIP</p>
+<span class="kr">for</span><span class="w"> </span><span class="nv">_</span><span class="p">,</span><span class="w"> </span><span class="nv">id</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">disk</span><span class="p">.</span><span class="nf">list</span><span class="p">())</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">info</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">disk</span><span class="p">.</span><span class="nf">get_info</span><span class="p">(</span><span class="nv">id</span><span class="p">)</span>
+
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Name: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">info</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">])</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Drive size: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">info</span><span class="p">[</span><span class="s2">&quot;size&quot;</span><span class="p">])</span><span class="w"> </span><span class="c1">-- In bytes</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Used: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">info</span><span class="p">[</span><span class="s2">&quot;used_space&quot;</span><span class="p">])</span><span class="w"> </span><span class="c1">-- In bytes</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Available: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">info</span><span class="p">[</span><span class="s2">&quot;size&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">info</span><span class="p">[</span><span class="s2">&quot;used_space&quot;</span><span class="p">])</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="directory"><code>directory</code></h2>
+<p>Offers directory functionality:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_io&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">dir</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">directory</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">-- 0 is the drive index</span>
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Directory owner: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">dir</span><span class="p">[</span><span class="s2">&quot;owner&quot;</span><span class="p">])</span>
+
+<span class="kr">if</span><span class="w"> </span><span class="nv">directory</span><span class="p">.</span><span class="nf">exists</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">    </span><span class="nv">directory</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span>
+<span class="kr">else</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Directory disappeared 🤨&quot;</span><span class="p">)</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="file"><code>file</code></h2>
+<p>Offers file functionality:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nf">Include</span><span class="p">(</span><span class="s2">&quot;system_io&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">dir</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">file</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">-- 0 is the drive index</span>
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;File owner: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">dir</span><span class="p">[</span><span class="s2">&quot;owner&quot;</span><span class="p">])</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="s2">&quot;Your name: &quot;</span><span class="p">)</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">console</span><span class="p">.</span><span class="nf">readln</span><span class="p">()</span>
+
+<span class="nv">file</span><span class="p">.</span><span class="nf">write_text</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">name</span><span class="p">)</span>
+<span class="nv">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">file</span><span class="p">.</span><span class="nf">read_text</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span>
+
+<span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="s2">&quot;Your name is &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot;! I knew it!!!&quot;</span><span class="p">)</span>
+
+<span class="kr">if</span><span class="w"> </span><span class="nv">directory</span><span class="p">.</span><span class="nf">exists</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">    </span><span class="nv">directory</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/temp&quot;</span><span class="p">)</span>
+<span class="kr">else</span>
+<span class="w">    </span><span class="nv">console</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;File disappeared 🤨&quot;</span><span class="p">)</span>
+<span class="kr">end</span>
+</code></pre></div></td></tr></table></div>
+<div class="admonition seealso">
+<p class="admonition-title">Seealso</p>
+<p><a href="../../intro/#_3">Drive indexes</a></p>
+</div>
 
 
 
