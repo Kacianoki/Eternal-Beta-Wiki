@@ -77,7 +77,7 @@
 - `total_milliseconds` - float
 
 
-## Голобальные функции
+## Глобальные функции
 - `#!lua Wait(ms)`
 - `#!lua Get_current_permission()` 
     Вернёт `permission` текущего контекста выполнения

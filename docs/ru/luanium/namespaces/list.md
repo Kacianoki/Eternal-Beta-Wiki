@@ -1,4 +1,4 @@
-# Список простоанств имён 
+# Список пространств имён 
 - [system](./system.md)
 - [system_console](./system_console.md)
 - [system_io](./system_io.md)
