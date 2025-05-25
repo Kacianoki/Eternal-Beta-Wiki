@@ -93,8 +93,8 @@ its index.
 ```lua
 Include("0:/some-lua-file.lua")
 ```
-Here the disk index, that we are reading the file from, is specified before the column, and the full path to the lua file
-is specified after the column. 
+Here the disk index, that we are reading the file from, is specified before the colon, and the full path to the lua file
+is specified after the colon. 
 
 ## Execution context
 All scripts written in lua are executed in "execution contexts" (I haven't come up with a better name). Now I'll explain
