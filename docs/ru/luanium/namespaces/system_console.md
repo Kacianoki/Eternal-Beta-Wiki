@@ -3,12 +3,14 @@
 ### Функции
 - `#!lua print(input)`
 - `#!lua println(input)`
+!!! note
+    `#!lua print()` и `#!lua println()` используют [BBCode](https://www.bbcode.org/how-to-use-bbcode-a-complete-guide.php) так что вы можете это использовать
 - `#!lua readln()`
     Returns string
 - `#!lua clear()`
 - `#!lua abort_reading()`
-`#!lua print` и `#!lua println` используют [BBCode](https://www.bbcode.org/how-to-use-bbcode-a-complete-guide.php) так что вы можете это использовать
-`#!lua print` and `#!lua println` use [BBCode](https://www.bbcode.org/how-to-use-bbcode-a-complete-guide.php) so you can use that
+- `#!lua get_width()`
+- `#!lua get_height()`
 - `#!lua add_click_hook(func)`
     Добавляет функцию `func` в обработчик нажатий по консоли. Функция должна принимать 3 аргумента:
     ```lua
